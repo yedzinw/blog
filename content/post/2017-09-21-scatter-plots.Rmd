@@ -1,3 +1,40 @@
-This class is so hard
+
+---
+title: Scatter Plots
+author: Yedzin W Tobgay
+date: '2017-09-21'
+slug: scatter-plots
+categories:
+  - R
+tags:
+  - scatter plot
+---
+
+```{r}
+library(ggplot2)
+```
+
+Let's generate some random points:
+```{r}
+x<-rnorm(100,5,2)
+y<-rnorm(200,2*x+1,2)
+
+x
+y
+```
+
+Now, let's make a data frame:
+
+```{r}
+df<-data.frame(x,y)
+
+df
+```
+
+Finally, the plot:
+```{r}
+ggplot()+
+geom_point(data=df,aes(x,y))
+
 ```
 

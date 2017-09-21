@@ -6,6 +6,7 @@
     <description>Recent content on Yedzin&#39;s Data Science Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
+    <lastBuildDate>Thu, 21 Sep 2017 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     
@@ -47,12 +48,13 @@
     </item>
     
     <item>
-      <title></title>
-      <link>/post/2017-09-21-scatter-plots/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <title>Scatter Plots</title>
+      <link>/post/scatter-plots/</link>
+      <pubDate>Thu, 21 Sep 2017 00:00:00 +0000</pubDate>
       
-      <guid>/post/2017-09-21-scatter-plots/</guid>
-      <description>This class is so hard ```</description>
+      <guid>/post/scatter-plots/</guid>
+      <description>library(ggplot2)## Warning: package &amp;#39;ggplot2&amp;#39; was built under R version 3.4.1Let’s generate some random points:
+x&amp;lt;-rnorm(100,5,2)y&amp;lt;-rnorm(200,2*x+1,2)x## [1] 4.497196 3.643731 5.424723 5.395771 3.944933 4.778741 7.150088## [8] 5.672324 3.863052 4.641723 4.723828 4.688270 3.669302 10.487854## [15] 7.133158 4.268847 3.470297 2.100224 5.660533 2.224213 7.919236## [22] 3.114531 8.966892 4.079204 2.361483 2.193969 4.323854 3.706501## [29] 6.152406 5.821643 1.965668 7.202395 4.730945 4.713449 5.864534## [36] 6.831167 5.847485 9.104639 5.367104 6.</description>
     </item>
     
   </channel>
