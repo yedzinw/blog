@@ -3,97 +3,97 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>http://example.com/project/project1/</loc>
+    <loc>/project/project1/</loc>
   </url>
   
   <url>
-    <loc>http://example.com/project/project2/</loc>
+    <loc>/project/project2/</loc>
   </url>
   
   <url>
-    <loc>http://example.com/project/project3/</loc>
+    <loc>/project/project3/</loc>
   </url>
   
   <url>
-    <loc>http://example.com/project/project4/</loc>
+    <loc>/project/project4/</loc>
   </url>
   
   <url>
-    <loc>http://example.com/post/2017-09-21-scatter-plots/</loc>
+    <loc>/post/2017-09-21-scatter-plots/</loc>
   </url>
   
   <url>
-    <loc>http://example.com/tags/bootstrap/</loc>
+    <loc>/tags/bootstrap/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://example.com/categories/</loc>
+    <loc>/categories/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://example.com/tags/css/</loc>
+    <loc>/tags/css/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://example.com/tags/go/</loc>
+    <loc>/tags/go/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://example.com/tags/golang/</loc>
+    <loc>/tags/golang/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://example.com/tags/highlight-js/</loc>
+    <loc>/tags/highlight-js/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://example.com/tags/html/</loc>
+    <loc>/tags/html/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://example.com/tags/hugo/</loc>
+    <loc>/tags/hugo/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://example.com/tags/js/</loc>
+    <loc>/tags/js/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://example.com/post/</loc>
+    <loc>/post/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://example.com/project/</loc>
+    <loc>/project/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://example.com/tags/responsive/</loc>
+    <loc>/tags/responsive/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://example.com/tags/syntax-highlighting/</loc>
+    <loc>/tags/syntax-highlighting/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://example.com/tags/</loc>
+    <loc>/tags/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://example.com/</loc>
+    <loc>/</loc>
     <priority>0</priority>
   </url>
   
