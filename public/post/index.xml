@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on Yedzin&#39;s Data Science Blog</title>
+    <link>http://example.com/post/</link>
+    <description>Recent content in Posts on Yedzin&#39;s Data Science Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    
+	<atom:link href="http://example.com/post/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title></title>
+      <link>http://example.com/post/2017-09-21-scatter-plots/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.com/post/2017-09-21-scatter-plots/</guid>
+      <description>This class is so hard ```</description>
+    </item>
+    
+  </channel>
+</rss>
