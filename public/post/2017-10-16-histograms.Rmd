@@ -1,0 +1,34 @@
+---
+title: Histograms
+author: Yedzin
+date: '2017-10-16'
+slug: histograms
+categories:
+  - R
+tags:
+  - Histograms
+---
+
+```{r}
+library(Lahman)
+library(sqldf)
+library(devtools)
+library(ggplot2)
+```
+
+```{r}
+## Histograms
+# Extracting the data---------------------------------------
+
+query<-"SELECT weight
+FROM Master"
+
+result<-sqldf(query)
+
+# visualize the data---------------------------------------------------
+
+ggplot()+
+  geom_histogram(data=result,aes(x=weight),color="pink",fill="white",bins=40)+
+  ggtitle("Baseball Player Body-Weight Distribution")
+
+```

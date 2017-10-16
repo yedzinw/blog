@@ -9,4 +9,10 @@ tags:
   - scatter plot
   - hugo
 ---
+```{r}
+library(Lahman)
+library(sqldf)
+library(devtools)
+library(ggplot2)
+```
 

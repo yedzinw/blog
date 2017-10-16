@@ -2,111 +2,111 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on Yedzin&#39;s Data Science Blog</title>
-    <link>/tags/</link>
+    <link>http://example.com/tags/</link>
     <description>Recent content in Tags on Yedzin&#39;s Data Science Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 03 Oct 2017 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 16 Oct 2017 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://example.com/tags/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Bootstrap</title>
-      <link>/tags/bootstrap/</link>
+      <link>http://example.com/tags/bootstrap/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/tags/bootstrap/</guid>
+      <guid>http://example.com/tags/bootstrap/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Css</title>
-      <link>/tags/css/</link>
+      <link>http://example.com/tags/css/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/tags/css/</guid>
+      <guid>http://example.com/tags/css/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Go</title>
-      <link>/tags/go/</link>
+      <link>http://example.com/tags/go/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/tags/go/</guid>
+      <guid>http://example.com/tags/go/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Golang</title>
-      <link>/tags/golang/</link>
+      <link>http://example.com/tags/golang/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/tags/golang/</guid>
+      <guid>http://example.com/tags/golang/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Highlight Js</title>
-      <link>/tags/highlight-js/</link>
+      <link>http://example.com/tags/highlight-js/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/tags/highlight-js/</guid>
+      <guid>http://example.com/tags/highlight-js/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Histograms</title>
+      <link>http://example.com/tags/histograms/</link>
+      <pubDate>Mon, 16 Oct 2017 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.com/tags/histograms/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Html</title>
-      <link>/tags/html/</link>
+      <link>http://example.com/tags/html/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/tags/html/</guid>
+      <guid>http://example.com/tags/html/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Hugo</title>
-      <link>/tags/hugo/</link>
-      <pubDate>Tue, 03 Oct 2017 00:00:00 +0000</pubDate>
+      <link>http://example.com/tags/hugo/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/tags/hugo/</guid>
+      <guid>http://example.com/tags/hugo/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Js</title>
-      <link>/tags/js/</link>
+      <link>http://example.com/tags/js/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/tags/js/</guid>
+      <guid>http://example.com/tags/js/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Responsive</title>
-      <link>/tags/responsive/</link>
+      <link>http://example.com/tags/responsive/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/tags/responsive/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Scatter Plot</title>
-      <link>/tags/scatter-plot/</link>
-      <pubDate>Tue, 03 Oct 2017 00:00:00 +0000</pubDate>
-      
-      <guid>/tags/scatter-plot/</guid>
+      <guid>http://example.com/tags/responsive/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Syntax Highlighting</title>
-      <link>/tags/syntax-highlighting/</link>
+      <link>http://example.com/tags/syntax-highlighting/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/tags/syntax-highlighting/</guid>
+      <guid>http://example.com/tags/syntax-highlighting/</guid>
       <description></description>
     </item>
     

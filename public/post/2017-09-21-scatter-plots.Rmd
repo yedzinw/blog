@@ -11,6 +11,9 @@ tags:
 ---
 
 ```{r}
+library(Lahman)
+library(sqldf)
+library(devtools)
 library(ggplot2)
 ```
 

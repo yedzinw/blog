@@ -2,68 +2,58 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Yedzin&#39;s Data Science Blog</title>
-    <link>/</link>
+    <link>http://example.com/</link>
     <description>Recent content on Yedzin&#39;s Data Science Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 03 Oct 2017 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 16 Oct 2017 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://example.com/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Project 1</title>
-      <link>/project/project1/</link>
+      <link>http://example.com/project/project1/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/project/project1/</guid>
+      <guid>http://example.com/project/project1/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Project 2</title>
-      <link>/project/project2/</link>
+      <link>http://example.com/project/project2/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/project/project2/</guid>
+      <guid>http://example.com/project/project2/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Project 3</title>
-      <link>/project/project3/</link>
+      <link>http://example.com/project/project3/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/project/project3/</guid>
+      <guid>http://example.com/project/project3/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Project 4</title>
-      <link>/project/project4/</link>
+      <link>http://example.com/project/project4/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/project/project4/</guid>
+      <guid>http://example.com/project/project4/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Bar Graph</title>
-      <link>/post/bar-graph/</link>
-      <pubDate>Tue, 03 Oct 2017 00:00:00 +0000</pubDate>
+      <title>Histograms</title>
+      <link>http://example.com/post/histograms/</link>
+      <pubDate>Mon, 16 Oct 2017 00:00:00 +0000</pubDate>
       
-      <guid>/post/bar-graph/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Scatter Plots</title>
-      <link>/post/scatter-plots/</link>
-      <pubDate>Thu, 21 Sep 2017 00:00:00 +0000</pubDate>
-      
-      <guid>/post/scatter-plots/</guid>
-      <description>library(ggplot2)## Warning: package &amp;#39;ggplot2&amp;#39; was built under R version 3.4.1Let’s generate some random points:
-x&amp;lt;-rnorm(100,5,2)y&amp;lt;-rnorm(200,2*x+1,2)x## [1] 4.497196 3.643731 5.424723 5.395771 3.944933 4.778741 7.150088## [8] 5.672324 3.863052 4.641723 4.723828 4.688270 3.669302 10.487854## [15] 7.133158 4.268847 3.470297 2.100224 5.660533 2.224213 7.919236## [22] 3.114531 8.966892 4.079204 2.361483 2.193969 4.323854 3.706501## [29] 6.152406 5.821643 1.965668 7.202395 4.730945 4.713449 5.864534## [36] 6.831167 5.847485 9.104639 5.367104 6.</description>
+      <guid>http://example.com/post/histograms/</guid>
+      <description>library(Lahman)## Warning: package &amp;#39;Lahman&amp;#39; was built under R version 3.4.2library(sqldf)## Warning: package &amp;#39;sqldf&amp;#39; was built under R version 3.4.2## Loading required package: gsubfn## Warning: package &amp;#39;gsubfn&amp;#39; was built under R version 3.4.2## Loading required package: proto## Warning: package &amp;#39;proto&amp;#39; was built under R version 3.4.2## Loading required package: RSQLite## Warning: package &amp;#39;RSQLite&amp;#39; was built under R version 3.4.1library(devtools)## Warning: package &amp;#39;devtools&amp;#39; was built under R version 3.</description>
     </item>
     
   </channel>

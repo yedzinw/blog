@@ -1,0 +1,42 @@
+---
+title: Histograms
+author: Yedzin
+date: '2017-10-16'
+slug: histograms
+categories:
+  - R
+tags:
+  - Histograms
+---
+
+
+
+<pre class="r"><code>library(Lahman)</code></pre>
+<pre><code>## Warning: package &#39;Lahman&#39; was built under R version 3.4.2</code></pre>
+<pre class="r"><code>library(sqldf)</code></pre>
+<pre><code>## Warning: package &#39;sqldf&#39; was built under R version 3.4.2</code></pre>
+<pre><code>## Loading required package: gsubfn</code></pre>
+<pre><code>## Warning: package &#39;gsubfn&#39; was built under R version 3.4.2</code></pre>
+<pre><code>## Loading required package: proto</code></pre>
+<pre><code>## Warning: package &#39;proto&#39; was built under R version 3.4.2</code></pre>
+<pre><code>## Loading required package: RSQLite</code></pre>
+<pre><code>## Warning: package &#39;RSQLite&#39; was built under R version 3.4.1</code></pre>
+<pre class="r"><code>library(devtools)</code></pre>
+<pre><code>## Warning: package &#39;devtools&#39; was built under R version 3.4.2</code></pre>
+<pre class="r"><code>library(ggplot2)</code></pre>
+<pre><code>## Warning: package &#39;ggplot2&#39; was built under R version 3.4.2</code></pre>
+<pre class="r"><code>## Histograms
+# Extracting the data---------------------------------------
+
+query&lt;-&quot;SELECT weight
+FROM Master&quot;
+
+result&lt;-sqldf(query)
+
+# visualize the data---------------------------------------------------
+
+ggplot()+
+  geom_histogram(data=result,aes(x=weight),color=&quot;pink&quot;,fill=&quot;white&quot;,bins=40)+
+  ggtitle(&quot;Baseball Player Body-Weight Distribution&quot;)</code></pre>
+<pre><code>## Warning: Removed 854 rows containing non-finite values (stat_bin).</code></pre>
+<p><img src="/post/2017-10-16-histograms_files/figure-html/unnamed-chunk-2-1.png" width="672" /></p>
