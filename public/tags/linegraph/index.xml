@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Linegraph on Yedzin&#39;s Data Science Blog</title>
+    <link>http://example.com/tags/linegraph/</link>
+    <description>Recent content in Linegraph on Yedzin&#39;s Data Science Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 17 Oct 2017 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="http://example.com/tags/linegraph/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Line Graph</title>
+      <link>http://example.com/post/line-graph/</link>
+      <pubDate>Tue, 17 Oct 2017 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.com/post/line-graph/</guid>
+      <description>library(devtools)library(Lahman)library(sqldf)library(ggplot2)## Line Graph# Extracting the Data-------------------------------------------------query&amp;lt;-&amp;quot;SELECT yearID,HRFROM BattingWHERE playerID=&amp;#39;ruthba01&amp;#39;&amp;quot;result&amp;lt;-sqldf(query)# Visualizing the Data---------------------------------------------------ggplot()+geom_line(data=result,aes(x=yearID,y=HR))+geom_point(data=result,aes(x=yearID,y=HR))+ggtitle(&amp;quot;Ruth&amp;#39;s Homerun Totals Through the Years&amp;quot;)+xlab(&amp;quot;Year&amp;quot;)+ylab(&amp;quot;Home Runs&amp;quot;)</description>
+    </item>
+    
+  </channel>
+</rss>

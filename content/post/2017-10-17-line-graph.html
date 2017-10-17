@@ -1,0 +1,35 @@
+---
+title: Line Graph
+author: Yedzin
+date: '2017-10-17'
+slug: line-graph
+categories:
+  - R
+tags:
+  - linegraph
+---
+
+
+
+<pre class="r"><code>library(devtools)
+library(Lahman)
+library(sqldf)
+library(ggplot2)</code></pre>
+<pre class="r"><code>## Line Graph
+# Extracting the Data-------------------------------------------------
+
+query&lt;-&quot;SELECT yearID,HR
+FROM Batting
+WHERE playerID=&#39;ruthba01&#39;&quot;
+
+result&lt;-sqldf(query)
+
+# Visualizing the Data---------------------------------------------------
+
+ggplot()+
+  geom_line(data=result,aes(x=yearID,y=HR))+
+  geom_point(data=result,aes(x=yearID,y=HR))+
+  ggtitle(&quot;Ruth&#39;s Homerun Totals Through the Years&quot;)+
+  xlab(&quot;Year&quot;)+
+  ylab(&quot;Home Runs&quot;)</code></pre>
+<p><img src="/post/2017-10-17-line-graph_files/figure-html/unnamed-chunk-2-1.png" width="672" /></p>

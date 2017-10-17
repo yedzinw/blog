@@ -1,0 +1,32 @@
+---
+title: Bar Graph
+author: Yedzin
+date: '2017-10-17'
+slug: bar-graph
+categories:
+  - R
+tags:
+  - bargraph
+---
+
+
+
+<pre class="r"><code>library(devtools)
+library(Lahman)
+library(sqldf)
+library(ggplot2)</code></pre>
+<pre class="r"><code>query&lt;-&quot;SELECT name,HR FROM Teams WHERE yearID=1980
+ORDER BY HR&quot;
+
+result&lt;-sqldf(query)
+
+result$name&lt;-factor(result$name,levels=result$name)
+
+#visualizing the data
+ggplot()+
+  geom_bar(data=result,aes(x=name,y=HR),stat=&#39;identity&#39;)+
+  coord_flip()+
+  xlab(&quot;Team name&quot;)+
+  ylab(&quot;Homeruns&quot;)+
+  ggtitle(&quot;Total Homerun Distribution&quot;)</code></pre>
+<p><img src="/post/2017-10-17-bar-graph_files/figure-html/unnamed-chunk-2-1.png" width="672" /></p>

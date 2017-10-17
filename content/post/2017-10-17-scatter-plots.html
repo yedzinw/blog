@@ -1,0 +1,33 @@
+---
+title: Scatter Plots
+author: Yedzin
+date: '2017-10-17'
+slug: scatter-plots
+categories:
+  - R
+tags:
+  - scatter plot
+---
+
+
+
+<pre class="r"><code>library(devtools)
+library(Lahman)
+library(sqldf)
+library(ggplot2)</code></pre>
+<pre class="r"><code>#Extracting the data-------------------------------------
+
+query&lt;-&quot;SELECT playerID,sum(HR) AS career_HR,sum(SO) AS career_SO
+FROM Batting
+GROUP BY playerID
+HAVING sum(HR)&gt;=400&quot;
+
+result&lt;-sqldf(query)
+
+# viwualizing the data-------------------------------------
+
+ggplot()+
+  geom_point(data=result,aes(x=career_SO,y=career_HR),size=3,color=&quot;pink&quot;)+
+  ggtitle(&quot;Career Strikeouts Vs Homeruns for Great Hitters&quot;)+
+  xlab(&quot;Career Strike Outs&quot;)+ylab(&quot;Career Home Runs&quot;) </code></pre>
+<p><img src="/post/2017-10-17-scatter-plots_files/figure-html/unnamed-chunk-2-1.png" width="672" /></p>

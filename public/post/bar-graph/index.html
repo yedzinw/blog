@@ -57,7 +57,7 @@
 
 
 <script>$(document).on('click', function() { $('.collapse').collapse('hide'); })</script>
- <meta name="generator" content="Hugo 0.29" />
+ <meta name="generator" content="Hugo 0.30" />
         
     </head>
 
@@ -120,36 +120,35 @@
     
 
     <h4><a href="/post/bar-graph/">Bar Graph</a></h4>
-    <h5>October 3, 2017</h5>
-     <kbd class="item-tag">scatter plot</kbd>  <kbd class="item-tag">hugo</kbd> 
+    <h5>October 17, 2017</h5>
+     <kbd class="item-tag">bargraph</kbd> 
 
 </div>
 
 
-    <br> <div class="text-justify"></div>
+    <br> <div class="text-justify"><pre class="r"><code>library(devtools)
+library(Lahman)
+library(sqldf)
+library(ggplot2)</code></pre>
+<pre class="r"><code>query&lt;-&quot;SELECT name,HR FROM Teams WHERE yearID=1980
+ORDER BY HR&quot;
 
-    
-    
+result&lt;-sqldf(query)
 
-    
+result$name&lt;-factor(result$name,levels=result$name)
 
-        <h4 class="page-header">Related</h4>
-
-         <div class="item">
-
-    
-    
-    
-
-    
-    
-
-    <h4><a href="/post/scatter-plots/">Scatter Plots</a></h4>
-    <h5>September 21, 2017</h5>
-     <kbd class="item-tag">scatter plot</kbd> 
-
+#visualizing the data
+ggplot()+
+  geom_bar(data=result,aes(x=name,y=HR),stat=&#39;identity&#39;)+
+  coord_flip()+
+  xlab(&quot;Team name&quot;)+
+  ylab(&quot;Homeruns&quot;)+
+  ggtitle(&quot;Total Homerun Distribution&quot;)</code></pre>
+<p><img src="/post/2017-10-17-bar-graph_files/figure-html/unnamed-chunk-2-1.png" width="672" /></p>
 </div>
- 
+
+    
+    
 
     
 

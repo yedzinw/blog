@@ -1,0 +1,35 @@
+---
+title: Bar Graph
+author: Yedzin
+date: '2017-10-17'
+slug: bar-graph
+categories:
+  - R
+tags:
+  - bargraph
+---
+
+```{r warning=FALSE, message=FALSE}
+library(devtools)
+library(Lahman)
+library(sqldf)
+library(ggplot2)
+```
+
+```{r warning=FALSE, message=FALSE}
+query<-"SELECT name,HR FROM Teams WHERE yearID=1980
+ORDER BY HR"
+
+result<-sqldf(query)
+
+result$name<-factor(result$name,levels=result$name)
+
+#visualizing the data
+ggplot()+
+  geom_bar(data=result,aes(x=name,y=HR),stat='identity')+
+  coord_flip()+
+  xlab("Team name")+
+  ylab("Homeruns")+
+  ggtitle("Total Homerun Distribution")
+```
+

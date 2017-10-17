@@ -18,8 +18,29 @@
   </url>
   
   <url>
+    <loc>http://example.com/post/bar-graph/</loc>
+    <lastmod>2017-10-17T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://example.com/post/line-graph/</loc>
+    <lastmod>2017-10-17T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://example.com/post/scatter-plots/</loc>
+    <lastmod>2017-10-17T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>http://example.com/post/histograms/</loc>
     <lastmod>2017-10-16T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://example.com/tags/bargraph/</loc>
+    <lastmod>2017-10-17T00:00:00+00:00</lastmod>
+    <priority>0</priority>
   </url>
   
   <url>
@@ -74,8 +95,14 @@
   </url>
   
   <url>
+    <loc>http://example.com/tags/linegraph/</loc>
+    <lastmod>2017-10-17T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>http://example.com/post/</loc>
-    <lastmod>2017-10-16T00:00:00+00:00</lastmod>
+    <lastmod>2017-10-17T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -86,12 +113,18 @@
   
   <url>
     <loc>http://example.com/categories/r/</loc>
-    <lastmod>2017-10-16T00:00:00+00:00</lastmod>
+    <lastmod>2017-10-17T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>http://example.com/tags/responsive/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://example.com/tags/scatter-plot/</loc>
+    <lastmod>2017-10-17T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -102,13 +135,13 @@
   
   <url>
     <loc>http://example.com/tags/</loc>
-    <lastmod>2017-10-16T00:00:00+00:00</lastmod>
+    <lastmod>2017-10-17T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>http://example.com/</loc>
-    <lastmod>2017-10-16T00:00:00+00:00</lastmod>
+    <lastmod>2017-10-17T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   

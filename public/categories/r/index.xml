@@ -6,10 +6,37 @@
     <description>Recent content in R on Yedzin&#39;s Data Science Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 16 Oct 2017 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 17 Oct 2017 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="http://example.com/categories/r/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Bar Graph</title>
+      <link>http://example.com/post/bar-graph/</link>
+      <pubDate>Tue, 17 Oct 2017 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.com/post/bar-graph/</guid>
+      <description>library(devtools)library(Lahman)library(sqldf)library(ggplot2)query&amp;lt;-&amp;quot;SELECT name,HR FROM Teams WHERE yearID=1980ORDER BY HR&amp;quot;result&amp;lt;-sqldf(query)result$name&amp;lt;-factor(result$name,levels=result$name)#visualizing the dataggplot()+geom_bar(data=result,aes(x=name,y=HR),stat=&amp;#39;identity&amp;#39;)+coord_flip()+xlab(&amp;quot;Team name&amp;quot;)+ylab(&amp;quot;Homeruns&amp;quot;)+ggtitle(&amp;quot;Total Homerun Distribution&amp;quot;)</description>
+    </item>
+    
+    <item>
+      <title>Line Graph</title>
+      <link>http://example.com/post/line-graph/</link>
+      <pubDate>Tue, 17 Oct 2017 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.com/post/line-graph/</guid>
+      <description>library(devtools)library(Lahman)library(sqldf)library(ggplot2)## Line Graph# Extracting the Data-------------------------------------------------query&amp;lt;-&amp;quot;SELECT yearID,HRFROM BattingWHERE playerID=&amp;#39;ruthba01&amp;#39;&amp;quot;result&amp;lt;-sqldf(query)# Visualizing the Data---------------------------------------------------ggplot()+geom_line(data=result,aes(x=yearID,y=HR))+geom_point(data=result,aes(x=yearID,y=HR))+ggtitle(&amp;quot;Ruth&amp;#39;s Homerun Totals Through the Years&amp;quot;)+xlab(&amp;quot;Year&amp;quot;)+ylab(&amp;quot;Home Runs&amp;quot;)</description>
+    </item>
+    
+    <item>
+      <title>Scatter Plots</title>
+      <link>http://example.com/post/scatter-plots/</link>
+      <pubDate>Tue, 17 Oct 2017 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.com/post/scatter-plots/</guid>
+      <description>library(devtools)library(Lahman)library(sqldf)library(ggplot2)#Extracting the data-------------------------------------query&amp;lt;-&amp;quot;SELECT playerID,sum(HR) AS career_HR,sum(SO) AS career_SOFROM BattingGROUP BY playerIDHAVING sum(HR)&amp;gt;=400&amp;quot;result&amp;lt;-sqldf(query)# viwualizing the data-------------------------------------ggplot()+geom_point(data=result,aes(x=career_SO,y=career_HR),size=3,color=&amp;quot;pink&amp;quot;)+ggtitle(&amp;quot;Career Strikeouts Vs Homeruns for Great Hitters&amp;quot;)+xlab(&amp;quot;Career Strike Outs&amp;quot;)+ylab(&amp;quot;Career Home Runs&amp;quot;) </description>
+    </item>
     
     <item>
       <title>Histograms</title>

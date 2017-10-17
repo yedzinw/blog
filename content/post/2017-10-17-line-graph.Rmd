@@ -1,0 +1,38 @@
+---
+title: Line Graph
+author: Yedzin
+date: '2017-10-17'
+slug: line-graph
+categories:
+  - R
+tags:
+  - linegraph
+---
+
+```{r warning=FALSE, message=FALSE}
+library(devtools)
+library(Lahman)
+library(sqldf)
+library(ggplot2)
+```
+
+```{r warning=FALSE, message=FALSE}
+## Line Graph
+# Extracting the Data-------------------------------------------------
+
+query<-"SELECT yearID,HR
+FROM Batting
+WHERE playerID='ruthba01'"
+
+result<-sqldf(query)
+
+# Visualizing the Data---------------------------------------------------
+
+ggplot()+
+  geom_line(data=result,aes(x=yearID,y=HR))+
+  geom_point(data=result,aes(x=yearID,y=HR))+
+  ggtitle("Ruth's Homerun Totals Through the Years")+
+  xlab("Year")+
+  ylab("Home Runs")
+```
+

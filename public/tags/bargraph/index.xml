@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Bargraph on Yedzin&#39;s Data Science Blog</title>
+    <link>http://example.com/tags/bargraph/</link>
+    <description>Recent content in Bargraph on Yedzin&#39;s Data Science Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 17 Oct 2017 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="http://example.com/tags/bargraph/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Bar Graph</title>
+      <link>http://example.com/post/bar-graph/</link>
+      <pubDate>Tue, 17 Oct 2017 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.com/post/bar-graph/</guid>
+      <description>library(devtools)library(Lahman)library(sqldf)library(ggplot2)query&amp;lt;-&amp;quot;SELECT name,HR FROM Teams WHERE yearID=1980ORDER BY HR&amp;quot;result&amp;lt;-sqldf(query)result$name&amp;lt;-factor(result$name,levels=result$name)#visualizing the dataggplot()+geom_bar(data=result,aes(x=name,y=HR),stat=&amp;#39;identity&amp;#39;)+coord_flip()+xlab(&amp;quot;Team name&amp;quot;)+ylab(&amp;quot;Homeruns&amp;quot;)+ggtitle(&amp;quot;Total Homerun Distribution&amp;quot;)</description>
+    </item>
+    
+  </channel>
+</rss>
