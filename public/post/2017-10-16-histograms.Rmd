@@ -9,14 +9,14 @@ tags:
   - Histograms
 ---
 
-```{r}
+```{r warning=FALSE,message=FALSE}
 library(Lahman)
 library(sqldf)
 library(devtools)
 library(ggplot2)
 ```
 
-```{r}
+```{r warning=FALSE,message=FALSE} 
 ## Histograms
 # Extracting the data---------------------------------------
 
